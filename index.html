@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokkanti Deekshitha - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #6e48aa, #9d50bb);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .contact-info {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        h2 {
+            color: #6e48aa;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        .about {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .skill {
+            background: #6e48aa;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .project {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            color: #6e48aa;
+            margin-bottom: 0.5rem;
+        }
+        .project p {
+            margin-bottom: 0.5rem;
+        }
+        .project ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .education-item, .experience-item {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .education-item h3, .experience-item h3 {
+            margin-bottom: 0.5rem;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kokkanti Deekshitha</h1>
+            <div class="contact-info">
+                <span>📍 Bengaluru</span>
+                <a href="mailto:kokkantideekshithareddy@gmail.com">✉️ kokkantideekshithareddy@gmail.com</a>
+                <a href="tel:9866933605">📞 98669 33605</a>
+                <a href="#">🔗 LinkedIn</a>
+                <a href="#">🌐 Personal Website</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about">
+                <p>
+                    Enthusiastic and detail-oriented Electronics and Communication Engineering (ECE) graduate 
+                    aspiring to transition into the IT industry. Proficient in Java, SQL, and with a strong 
+                    foundation in logical thinking and problem-solving. Well-versed in sorting and searching 
+                    algorithms, trees, stacks, queues, and arrays. Passionate about leveraging analytical 
+                    skills to develop efficient and scalable software solutions.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span class="skill">Java</span>
+                <span class="skill">Python</span>
+                <span class="skill">SQL</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">Data Structures & Algorithms</span>
+                <span class="skill">JDBC</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Student Management System</h3>
+                    <p><strong>Technologies:</strong> Java, JDBC, MySQL</p>
+                    <ul>
+                        <li>Developed a CRUD-based system to manage student records, including registration, attendance, and grades.</li>
+                        <li>Implemented sorting and searching algorithms for efficient student data retrieval.</li>
+                        <li>Used SQL queries for data storage, retrieval, and updating.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Library Management System</h3>
+                    <p><strong>Technologies:</strong> Java, SQL, DSA</p>
+                    <ul>
+                        <li>Designed a console-based or GUI-based application to manage book records, users, and due dates.</li>
+                        <li>Used stacks and queues to implement book borrowing and returning functionality.</li>
+                        <li>Implemented tree structures for efficient book searching.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Sreenivasa Institute of Technology and Management Studies</h3>
+                <p>B.Tech in Electronics and Communication Engineering</p>
+                <p class="date">Dec 2021 - May 2025 | GPA: 8.5</p>
+            </div>
+            <div class="education-item">
+                <h3>SRI CHAITHANYA JR COLLEGE, TIRUPATHI</h3>
+                <p>Mathematics, Physics, Chemistry</p>
+                <p class="date">June 2019 - May 2021 | Percentage: 78.8</p>
+            </div>
+            <div class="education-item">
+                <h3>BLUE MOON INTERNATIONAL SCHOOL KUTAGULLA</h3>
+                <p>S.S.C</p>
+                <p class="date">March 2019 | CGPA: 9.8</p>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <div class="skills">
+                <span class="skill">Cricket</span>
+                <span class="skill">Traveling</span>
+                <span class="skill">Food Lover</span>
+                <span class="skill">Browsing Internet</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kokkanti Deekshitha. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
